@@ -1,0 +1,84 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <math.h>
+#include <time.h>
+#include "svgfile.h"
+#include "Arete.h"
+#include "Sommet.h"
+#include "Graph.h"
+
+bool TestFichier(std::string fichiern)
+{
+    bool ouverture = false;
+    std::ifstream fichier(fichiern);
+    if(fichier)
+        ouverture = true;
+    return ouverture;
+}
+
+void Update_Univers(std::vector<Graph>&Univers)
+{
+    if(Univers.size() > 0)
+        Univers.pop_back();
+    Graph G(1, 5, 4);
+    Univers.push_back(G);
+}
+
+int main()
+{
+    std::vector<Graph>Univers;
+    int choix_m=0;
+    std::string fichier;
+    srand(time(NULL));
+
+    do{
+   std::cout <<  "------------------ MENU ------------------" << std::endl
+              << "1-          Charger un Graphe           -1" << std::endl
+              << "2-     Charger systeme de ponderation   -2" << std::endl
+              << "3-     Calculer indices de centralite   -3" << std::endl
+              << "4-        Tester la vulnerabilite       -4" << std::endl
+              << "0-               Arreter                -0" << std::endl << std::endl
+              << "                 -> ";
+    do{
+    std::cin >> choix_m;
+    }
+    while (choix_m != 0 && choix_m != 1 && choix_m != 2 && choix_m != 3 && choix_m != 4);
+
+    switch(choix_m)
+    {
+    case 1 :
+        {
+        Update_Univers(Univers);
+        Univers[0].Menu1(fichier);
+        }
+        break;
+    case 2 :
+        {
+        Update_Univers(Univers);
+        if(Univers.size()>0)
+            Univers[0].Menu2(fichier);
+        }
+        break;
+    case 3 :
+        {
+        if(Univers.size()>0)
+           Univers[0].Menu3();
+        }
+        break;
+    case 4 :
+        break;
+    case 5 :
+        break;
+    }
+    }while(choix_m != 0);
+
+
+    int Fini=0;
+    std::cout << "FINI  =  ";
+    std::cin >> Fini;
+
+    return 0;
+}
+
+

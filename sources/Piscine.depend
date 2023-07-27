@@ -1,0 +1,276 @@
+# depslib dependency file v1.0
+1587992750 source:c:\users\edoua\desktop\piscine\piscine\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"svgfile.h"
+
+1575180004 source:c:\users\edoua\desktop\piscine\piscine\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1587987052 c:\users\edoua\desktop\piscine\piscine\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1588511054 source:c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1588005230 source:c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1588367625 source:c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<math.h>
+	<time.h>
+	"svgfile.h"
+	"Arete.h"
+	"Sommet.h"
+	"Graph.h"
+
+1587995510 c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1588525339 source:c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<math.h>
+	<time.h>
+	"svgfile.h"
+	"Arete.h"
+	"Sommet.h"
+	"Graph.h"
+
+1588511054 c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1588515810 c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\sommet.h
+	<vector>
+	"svgfile.h"
+
+1588520344 c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\arete.h
+	<vector>
+	"Sommet.h"
+
+1588516599 c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\graph.h
+	<vector>
+	"Arete.h"
+
+1588525339 source:c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\arete.cpp
+	<iostream>
+	<vector>
+	"Arete.h"
+
+1588525339 source:c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\graph.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+	"math.h"
+	<fstream>
+
+1588525339 source:c:\users\edoua\desktop\piscine\projet-tdg\projet tdg\sommet.cpp
+	<iostream>
+	<vector>
+	"math.h"
+	"Sommet.h"
+	"Arete.h"
+	<iomanip>
+	<iostream>
+
+1588038943 source:c:\users\edoua\desktop\projet tdg\arete.cpp
+	<iostream>
+	<vector>
+	"Arete.h"
+
+1588036676 c:\users\edoua\desktop\projet tdg\arete.h
+	<vector>
+	"Sommet.h"
+
+1588066977 c:\users\edoua\desktop\projet tdg\sommet.h
+	<vector>
+	"svgfile.h"
+
+1587996893 c:\users\edoua\desktop\projet tdg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1588066912 source:c:\users\edoua\desktop\projet tdg\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<math.h>
+	"svgfile.h"
+	"Arete.h"
+	"Sommet.h"
+	"Graph.h"
+
+1588066912 c:\users\edoua\desktop\projet tdg\graph.h
+	<vector>
+	"Arete.h"
+
+1588067702 source:c:\users\edoua\desktop\projet tdg\sommet.cpp
+	<iostream>
+	<vector>
+	"math.h"
+	"Sommet.h"
+	"Arete.h"
+
+1588002532 source:c:\users\edoua\desktop\projet tdg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1588066977 source:c:\users\edoua\desktop\projet tdg\graph.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+
+1588364261 source:c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\arete.cpp
+	<iostream>
+	<vector>
+	"Arete.h"
+
+1588364261 c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\arete.h
+	<vector>
+	"Sommet.h"
+
+1588366578 c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\sommet.h
+	<vector>
+	"svgfile.h"
+
+1588369334 source:c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\sommet.cpp
+	<iostream>
+	<vector>
+	"math.h"
+	"Sommet.h"
+	"Arete.h"
+	<iomanip>
+	<iostream>
+
+1588366773 c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\graph.h
+	<vector>
+	"Arete.h"
+
+1588368902 source:c:\users\principal\3d objects\documents\ing2 s2\informatique\projet-tdg2\projet tdg\graph.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+	"math.h"
+	<fstream>
+
+1588521739 source:d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\arete.cpp
+	<iostream>
+	<vector>
+	"Arete.h"
+
+1588516744 d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\arete.h
+	<vector>
+	"Sommet.h"
+
+1588512210 d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\sommet.h
+	<vector>
+	"svgfile.h"
+
+1588507454 d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1588521739 source:d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\graph.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+	"math.h"
+	<fstream>
+
+1588512999 d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\graph.h
+	<vector>
+	"Arete.h"
+
+1588521739 source:d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<math.h>
+	<time.h>
+	"svgfile.h"
+	"Arete.h"
+	"Sommet.h"
+	"Graph.h"
+
+1588521739 source:d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\sommet.cpp
+	<iostream>
+	<vector>
+	"math.h"
+	"Sommet.h"
+	"Arete.h"
+	<iomanip>
+	<iostream>
+
+1588507454 source:d:\ece cours\2019_2020\info\piscine\projet-tdg\projet tdg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1588521739 source:c:\users\edoua\desktop\projet ia\projet tdg\arete.cpp
+	<iostream>
+	<vector>
+	"Arete.h"
+
+1588516744 c:\users\edoua\desktop\projet ia\projet tdg\arete.h
+	<vector>
+	"Sommet.h"
+
+1622217585 c:\users\edoua\desktop\projet ia\projet tdg\sommet.h
+	<vector>
+	"svgfile.h"
+
+1588507454 c:\users\edoua\desktop\projet ia\projet tdg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1622221572 source:c:\users\edoua\desktop\projet ia\projet tdg\graph.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+	"math.h"
+	<fstream>
+
+1622216375 c:\users\edoua\desktop\projet ia\projet tdg\graph.h
+	<vector>
+	"Arete.h"
+
+1622220342 source:c:\users\edoua\desktop\projet ia\projet tdg\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<math.h>
+	<time.h>
+	"svgfile.h"
+	"Arete.h"
+	"Sommet.h"
+	"Graph.h"
+
+1622219002 source:c:\users\edoua\desktop\projet ia\projet tdg\sommet.cpp
+	<iostream>
+	<vector>
+	"math.h"
+	"Sommet.h"
+	"Arete.h"
+	<iomanip>
+	<iostream>
+
+1588507454 source:c:\users\edoua\desktop\projet ia\projet tdg\svgfile.cpp
+	<iostream>
+	<sstream>
+
